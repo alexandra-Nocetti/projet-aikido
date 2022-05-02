@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+.cc-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Courier New', Courier, monospace;
+box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.54);
+
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-botton .4s ease-in-out, border-color 0,3s ease;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal) ;
+}
+
+ .banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../EVAL1/image/chalkboard-1337809__340.jpg') center center fixed repeat-x ;
+    height: 1200px;
+}
+
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color:var(--bs-teal); 
+    transition: 0.5s;
+
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: rgb(227, 236, 244);
+    background-color:var(--bs-teal); 
+}
