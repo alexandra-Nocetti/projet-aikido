@@ -44,3 +44,8 @@
     color: rgb(227, 236, 244);
     background-color:var(--bs-teal); 
 }
+
+    footer{
+
+        display: flex;
+    }
