@@ -19,9 +19,8 @@
 }
 
  .banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../projet-aikido/image/JAPON.jpg");
-    height: 500px;
-    background-color: aqua;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/EPA_fond.jpg") center center fixed no-repeat;
+    height: 800px;
     background-size: cover;
 }
 
@@ -44,8 +43,66 @@
     color: rgb(227, 236, 244);
     background-color:var(--bs-teal); 
 }
-
-    footer{
-
-        display: flex;
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(12, 4, 4);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(110, 68, 5);
     }
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 1,8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4 ease;
+}
+.socials a:hover i{
+    color: rgb(79, 47, 8);
+}
+.footer-botton{
+    background: #111;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
