@@ -11,20 +11,37 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <h1 class="text-center">Registration Form</h1>
+    <h1 class="text-center">Formulaire d'Inscription</h1>
 
     <form action="#" class="form">
         <div class="form-step form-step-active">
             <div class="input-group">
-                <label for="username">username</label>
+                <label for="username">Nom</label>
                 <input type="text" name="username" id="username" />
             </div>
             <div class="input-group">
-                <label for="position">position</label>
+                <label for="position">Prénom</label>
                 <input type="text" name="'position" id="position" />
             </div>
-            <div class="">
-                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">
+                <label for="phone">Téléphone</label>
+                <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+            </div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">
+                <label for="dob">Date de naissance</label>
+                <input type="date" name="dob" id="dob" />
+            </div>
+        </div>
+            <div class="btns-group">
+                <input type="submit" value="Envoyer" class="btn" />
             </div>
         </div>
     </form>

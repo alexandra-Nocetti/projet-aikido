@@ -10,18 +10,24 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/EPA_fond.jpg") center center fixed no-repeat;
+    height: 1200px;
+    background-size: cover;
 }
+
 /*global style */
 label{
     display: block;
     margin-bottom: 0.5rem;
+    color:yellow;
 }
 input{
     display: block;
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(221, 215, 215);
     border-radius: 0.25rem;
+    
 }
 
 .width-50{
@@ -32,21 +38,41 @@ input{
 .ml-auto{
     margin-left: auto;
 }
+.text-center{
+    text-align: center;
+}
+
+
 /*form */
 
 .form{
     width: clamp(320px, 30px, 430px);
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 3px solid rgb(171, 234, 14);
     border-radius: 0.35rem;
     padding: 1.5rem;
 }
+
+.form-step{
+    display: none;
+
+}
+.form-step-active{
+    display: block;
+}
+
 .input-group{
     margin: 2rem 0;
 
 }
 
 /* button */
+.btns-group{
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
 .btn{
     padding: 00.75rem;
     display: block;
@@ -62,3 +88,4 @@ input{
 .btn:hover{
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px;
 }
+
