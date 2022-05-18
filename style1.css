@@ -1,91 +1,104 @@
-*
-*::before
-*::after{
+@media screen and (max-width:500px) {
+    html {
+        font-size: 14px;
+    }
+
+    h1 {
+        color: rgb(153, 81, 234);
+    }
+}
+
+* *::before *::after {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     display: grid;
     place-items: center;
     min-height: 100vh;
+    /* 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/EPA_fond.jpg") center center fixed no-repeat;
+    */
+    background: -webkit-radial-gradient(#fcb045, #fd1d1d, #833ab4);
     height: 1200px;
     background-size: cover;
 }
 
 /*global style */
-label{
+label {
     display: block;
     margin-bottom: 0.5rem;
-    color:yellow;
+    color: rgb(14, 14, 12);
 }
-input{
+
+input {
     display: block;
     width: 100%;
     padding: 0.75rem;
     border: 1px solid rgb(221, 215, 215);
     border-radius: 0.25rem;
-    
+
 }
 
-.width-50{
+.width-50 {
 
     width: 50%;
 }
 
-.ml-auto{
+.ml-auto {
     margin-left: auto;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
 
 /*form */
 
-.form{
+.form {
     width: clamp(320px, 30px, 430px);
     margin: 0 auto;
-    border: 3px solid rgb(171, 234, 14);
+    border: 3px solid rgb(222, 243, 170);
     border-radius: 0.35rem;
     padding: 1.5rem;
 }
 
-.form-step{
+.form-step {
     display: none;
 
 }
-.form-step-active{
+
+.form-step-active {
     display: block;
 }
 
-.input-group{
+.input-group {
     margin: 2rem 0;
 
 }
 
 /* button */
-.btns-group{
+.btns-group {
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
-.btn{
+.btn {
     padding: 00.75rem;
     display: block;
     text-decoration: none;
     background-color: rgb(244, 142, 18);
-    color: rgb(207, 25, 25);
+    color: rgb(123, 10, 10);
     text-align: center;
     border-radius: O.25rem;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: 0 0 0 2px #fff, 0 0 0 3px;
 }
-

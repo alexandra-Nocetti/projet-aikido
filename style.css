@@ -1,61 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 
-.cc-navbar{
+@media screen and (max-width:700px) {}
+
+
+.cc-navbar {
     background-color: rgba(0, 0, 0, 0.55);
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.54);
     z-index: 99;
     font-family: 'Merriweather', serif;
-    
+
 
 }
 
-.cc-navbar .nav-link{
+.cc-navbar .nav-link {
     border-bottom: 1px solid transparent;
-    transition: padding-botton .4s ease-in-out, border-color 0,3s ease;
+    transition: padding-botton .4s ease-in-out, border-color 0, 3s ease;
 }
 
-.cc-navbar .nav-link:hover{
+.cc-navbar .nav-link:hover {
     padding-bottom: 20px;
-    border-bottom-color: var(--bs-teal) ;
+    border-bottom-color: var(--bs-teal);
 }
 
- .banner{
+.banner {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/EPA_fond.jpg") center center fixed no-repeat;
     height: 800px;
     background-size: cover;
 }
 
-.banner .banner-desc{
+.banner .banner-desc {
     font-size: 48px;
     font-weight: 400;
     color: rgb(44, 189, 242);
 }
 
 
-.btn-order{
+.btn-order {
     color: var(--bs-teal);
-    border-color:var(--bs-teal); 
+    border-color: var(--bs-teal);
     transition: 0.5s;
 
 }
 
-.btn-order:hover,
-.btn-order:active{
-    color: rgb(227, 236, 244);
-    background-color:var(--bs-teal); 
+.btn {
+    background: -webkit-linear-gradient(#fcb045, #fd1d1d, #833ab4);
 }
-footer{
+
+.btn-order:hover,
+.btn-order:active {
+    color: rgb(227, 236, 244);
+    background-color: var(--bs-teal);
+}
+
+/*pied de page */
+footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgb(12, 4, 4);
+    background-color: rgb(12, 4, 4);
     height: auto;
     width: 100vw;
     padding-top: 40px;
     color: rgb(110, 68, 5);
-    }
-.footer-content{
+}
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,21 +74,21 @@ footer{
 
 }
 
-.footer-content h3{
-    font-size: 1,8rem;
+.footer-content h3 {
+    font-size: 1, 8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
 
-.footer-content p{
+.footer-content p {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
 }
 
-.socials{
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
@@ -86,23 +96,25 @@ footer{
     margin: 1rem 0 3rem 0;
 }
 
-.socials li{
+.socials li {
     margin: 0 10px;
 }
 
-.socials a{
+.socials a {
     text-decoration: none;
     color: aqua;
 }
 
-.socials a i{
+.socials a i {
     font-size: 1.1rem;
     transition: color .4 ease;
 }
-.socials a:hover i{
+
+.socials a:hover i {
     color: rgb(79, 47, 8);
 }
-.footer-botton{
+
+.footer-botton {
     background: #111;
     width: 100vw;
     padding: 20px 0;
